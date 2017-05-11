@@ -2,32 +2,32 @@ import { Component } from '@angular/core';
 import { Hero } from './hero';
 
 const INMUNISIMOS: Hero[] = [
-  { id: 1, name: 'Julian', estado: 'Julian Garcia. Se corono en el primer y exclusivo grupo inmunisimos tras realizar varios montajes fotograficos. El salchichazo fue olvidado.' },
-  { id: 2, name: 'Pedro', estado: 'Pedro Pedrosa. Permanece inmune pese a ser del Barca'  },
+  { id: 11, name: 'Julian', estado: 'Julian Garcia. Se corono en el primer y exclusivo grupo inmunisimos tras realizar varios montajes fotograficos. El salchichazo fue olvidado.' },
+  { id: 12, name: 'Pedro', estado: 'Pedro Pedrosa. Permanece inmune pese a ser del Barca'  },
   { id: 13, name: 'Dani A', estado: 'Daniel Gomez. En el primer grupo desde siempre. Sus constantes insultos, mofas y bulling no han hecho que salga nunca de este grupo.'  }
 ];
 
 const INMUNES: Hero[] = [
-  { id: 4, name: 'Oscar', estado: 'Oscar Merino. Levantador de peso muerto oficial, causa de la cual no es inmunisimo.'  },
-  { id: 5, name: 'Manrique', estado: 'Alberto Manrique. Su falta de pelo ha sido el motivo principar para salir del grupo inmunisimo. Se prevee que en 2 años y a este ritmo de caida estara en el grupo de fuerisima.'},
-  { id: 6, name: 'Escribano', estado: 'Alberto Martin. Su pelo pantene, al contrario que a manrique, le ha ayudado a escalar paulatinamente hasta el grupo de inmunes.'  }
+  { id: 14, name: 'Oscar', estado: 'Oscar Merino. Levantador de peso muerto oficial, causa de la cual no es inmunisimo.'  },
+  { id: 15, name: 'Manrique', estado: 'Alberto Manrique. Su falta de pelo ha sido el motivo principar para salir del grupo inmunisimo. Se prevee que en 2 años y a este ritmo de caida estara en el grupo de fuerisima.'},
+  { id: 16, name: 'Escribano', estado: 'Alberto Martin. Su pelo pantene, al contrario que a manrique, le ha ayudado a escalar paulatinamente hasta el grupo de inmunes.'  }
 ];
 
 const NORMALES: Hero[] = [
-  { id: 7, name: 'Maroto', estado: 'Raul Maroto. Anteriormente inmunisimo, descendio tras insultos y calumnias a Viren. Hizo famosa la expresion: Sexo enanal.'  },
-  { id: 8, name: 'Dani B', estado: 'Daniel Ayerza. Ha accedido hace relativamente poco a la lista. Fue recompensado el dia de su boda con un sobre del BBVA por parte de su dios Viren.'  },
-  { id: 9, name: 'Rubio', estado: 'David Rubio. Hascendido a la lista por el poco contacto tenido con Viren. Este prefiere que sus lacayos no le toquen los pies.'  },
-  { id: 10, name: 'Isma', estado: 'Ismael de la Fuente. Se popularizo su ascenso en la lista de Viren tras elavorar un delicioso guacamole en una de las fiestas. Se espera la siguiente edicion.'  },
+  { id: 17, name: 'Maroto', estado: 'Raul Maroto. Anteriormente inmunisimo, descendio tras insultos y calumnias a Viren. Hizo famosa la expresion: Sexo enanal.'  },
+  { id: 18, name: 'Dani B', estado: 'Daniel Ayerza. Ha accedido hace relativamente poco a la lista. Fue recompensado el dia de su boda con un sobre del BBVA por parte de su dios Viren.'  },
+  { id: 19, name: 'Rubio', estado: 'David Rubio. Hascendido a la lista por el poco contacto tenido con Viren. Este prefiere que sus lacayos no le toquen los pies.'  },
+  { id: 20, name: 'Isma', estado: 'Ismael de la Fuente. Se popularizo su ascenso en la lista de Viren tras elavorar un delicioso guacamole en una de las fiestas. Se espera la siguiente edicion.'  },
 ];
 
 const FUERA: Hero[] = [
-  { id: 12, name: 'Jony', estado: 'Jonathan Pedrosa. Hombre gracioso cuyas constantes bromas pesadas a Viren han logrado su paulatino descenso en su status. Se espera su siguiente broma.'  },
-  { id: 12, name: 'Alvarito', estado: 'Alvaro Gonzalez. Se popularizo por la expresion: donde esta mi mascota, refiriendose a Viren. Tambien conocido como hacedor de conejos.'  }
+  { id: 21, name: 'Jony', estado: 'Jonathan Pedrosa. Hombre gracioso cuyas constantes bromas pesadas a Viren han logrado su paulatino descenso en su status. Se espera su siguiente broma.'  },
+  { id: 22, name: 'Alvarito', estado: 'Alvaro Gonzalez. Se popularizo por la expresion: donde esta mi mascota, refiriendose a Viren. Tambien conocido como hacedor de conejos.'  }
 ];
 
 const FUERISIMA: Hero[] = [
-  { id: 13, name: 'Pajares', estado: 'Sergio Pajares. Alias Puto Pajaro. Archienemigo conocido numero 1 de Viren. Sus constantes bromas pesadas, insultos y canciones racistas a Viren han hecho que quede totalmente excluido de la finca.'  },
-  { id: 14, name: 'Montoya', estado: 'Montoya. Alias Centoyo. Sus conocidos improperios hacia la altura de Viren asi como al tamaño de su pene han hecho que se encuentre totalmente fuera de la finca y de su vida. '  }
+  { id: 23, name: 'Pajares', estado: 'Sergio Pajares. Alias Puto Pajaro. Archienemigo conocido numero 1 de Viren. Sus constantes bromas pesadas, insultos y canciones racistas a Viren han hecho que quede totalmente excluido de la finca.'  },
+  { id: 24, name: 'Montoya', estado: 'Montoya. Alias Centoyo. Sus conocidos improperios hacia la altura de Viren asi como al tamaño de su pene han hecho que se encuentre totalmente fuera de la finca y de su vida. '  }
 ];
 
 @Component({
